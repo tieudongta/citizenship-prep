@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "question": "Have you ever claimed to be a U.S. citizen?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Falsely claiming U.S. citizenship can affect your eligibility for naturalization.",
+      "audio": "assets/n400_q1.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 2,
+      "question": "Have you ever registered to vote in any election in the United States?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Only U.S. citizens can legally register to vote in federal elections.",
+      "audio": "assets/n400_q2.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 3,
+      "question": "Have you ever voted in any election in the United States?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Non-citizens are not allowed to vote in U.S. elections.",
+      "audio": "assets/n400_q3.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 4,
+      "question": "Do you owe any overdue Federal, state, or local taxes?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Being current with your tax obligations is part of demonstrating good moral character.",
+      "audio": "assets/n400_q4.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 5,
+      "question": "Have you ever failed to file your Federal or state taxes?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Failing to file taxes can negatively impact your naturalization eligibility.",
+      "audio": "assets/n400_q5.mp3",
+      "bookmarked": false
+    }
+  ]
+  

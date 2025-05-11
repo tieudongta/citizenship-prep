@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 1,
+    "question": "What is the supreme law of the land?",
+    "choices": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Emancipation Proclamation"
+    ],
+    "answer": "The Constitution",
+    "audio": "assets/civic_q1.mp3",
+    "description": "The Constitution sets the framework for the government of the United States and is considered the supreme law of the land.",
+    "bookmarked": false
+  },
+  {
+    "id": 2,
+    "question": "What does the Constitution do?",
+    "choices": [
+      "Sets up the government",
+      "Defines the government",
+      "Protects basic rights of Americans",
+      "All of the above"
+    ],
+    "answer": "Sets up the government",
+    "audio": "assets/civic_q2.mp3",
+    "description": "The Constitution outlines the structure and powers of the government and establishes the basic laws that protect citizens' rights.",
+    "bookmarked": false
+  },
+  {
+    "id": 3,
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "choices": [
+      "We the People",
+      "We the Citizens",
+      "We the United States",
+      "We the Government"
+    ],
+    "answer": "We the People",
+    "audio": "assets/civic_q3.mp3",
+    "description": "The phrase 'We the People' signifies that the power of the government comes from the people, emphasizing the principle of self-government.",
+    "bookmarked": false
+  },
+  {
+    "id": 4,
+    "question": "What is an amendment?",
+    "choices": [
+      "A change to the Constitution",
+      "A rule for the country",
+      "A new law",
+      "A policy change"
+    ],
+    "answer": "A change to the Constitution",
+    "audio": "assets/civic_q4.mp3",
+    "description": "An amendment is a formal change or addition made to the Constitution, allowing it to evolve with time.",
+    "bookmarked": false
+  },
+  {
+    "id": 5,
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "choices": [
+      "The Bill of Rights",
+      "The Declaration of Rights",
+      "The Fundamental Amendments",
+      "The First Amendments"
+    ],
+    "answer": "The Bill of Rights",
+    "audio": "assets/civic_q5.mp3",
+    "description": "The Bill of Rights consists of the first ten amendments to the Constitution, which protect the individual freedoms and rights of American citizens.",
+    "bookmarked": false
+  },
+  {
+    "id": 6,
+    "question": "What is one right or freedom from the First Amendment?",
+    "choices": [
+      "Speech",
+      "Bear Arms",
+      "Education",
+      "Vote"
+    ],
+    "answer": "Speech",
+    "audio": "assets/civic_q6.mp3",
+    "description": "The First Amendment protects several basic freedoms, including the freedom of speech, allowing citizens to express themselves without government interference.",
+    "bookmarked": false
+  },
+  {
+    "id": 7,
+    "question": "What is the economic system in the United States?",
+    "choices": [
+      "Capitalist economy",
+      "Socialist economy",
+      "Mixed economy",
+      "Communist economy"
+    ],
+    "answer": "Capitalist economy",
+    "audio": "assets/civic_q7.mp3",
+    "description": "The United States has a capitalist economic system, where businesses and individuals own the means of production and distribution of goods and services.",
+    "bookmarked": false
+  },
+  {
+    "id": 8,
+    "question": "What is the ‘rule of law’?",
+    "choices": [
+      "Everyone must follow the law",
+      "Laws can be changed by the president",
+      "The president makes the law",
+      "Only certain people must follow the law"
+    ],
+    "answer": "Everyone must follow the law",
+    "audio": "assets/civic_q8.mp3",
+    "description": "The rule of law means that no one is above the law, and everyone, including leaders, must follow it.",
+    "bookmarked": false
+  },
+  {
+    "id": 9,
+    "question": "What are the three branches of the government?",
+    "choices": [
+      "Legislative, Executive, Judicial",
+      "Congress, President, Courts",
+      "Senate, House of Representatives, President",
+      "Senate, Executive, Courts"
+    ],
+    "answer": "Legislative, Executive, Judicial",
+    "audio": "assets/civic_q9.mp3",
+    "description": "The United States government is divided into three branches: Legislative (Congress), Executive (President), and Judicial (courts) to ensure a system of checks and balances.",
+    "bookmarked": false
+  },
+  {
+    "id": 10,
+    "question": "What is the highest court in the United States?",
+    "choices": [
+      "The Supreme Court",
+      "The Court of Appeals",
+      "The Federal Court",
+      "The District Court"
+    ],
+    "answer": "The Supreme Court",
+    "audio": "assets/civic_q10.mp3",
+    "description": "The Supreme Court is the highest court in the United States, and its decisions are final in interpreting the Constitution and laws.",
+    "bookmarked": false
+  },
+  {
+    "id": 11,
+    "question": "Who is in charge of the executive branch?",
+    "choices": [
+      "The President",
+      "The Vice President",
+      "The Speaker of the House",
+      "The Chief Justice"
+    ],
+    "answer": "The President",
+    "audio": "assets/civic_q11.mp3",
+    "description": "The President is the head of the executive branch of government, responsible for enforcing laws and overseeing the operation of the federal government.",
+    "bookmarked": false
+  },
+  {
+    "id": 12,
+    "question": "Who makes federal laws?",
+    "choices": [
+      "Congress",
+      "The President",
+      "The Supreme Court",
+      "The Federal Agencies"
+    ],
+    "answer": "Congress",
+    "audio": "assets/civic_q12.mp3",
+    "description": "Federal laws are made by Congress, which consists of the Senate and the House of Representatives.",
+    "bookmarked": false
+  },
+  {
+    "id": 13,
+    "question": "What are the two parts of the U.S. Congress?",
+    "choices": [
+      "The Senate and the House of Representatives",
+      "The House of Commons and the House of Lords",
+      "The President and the Senate",
+      "The Legislative Branch and the Executive Branch"
+    ],
+    "answer": "The Senate and the House of Representatives",
+    "audio": "assets/civic_q13.mp3",
+    "description": "Congress consists of two chambers: the Senate, which has 100 members, and the House of Representatives, which has 435 members based on population.",
+    "bookmarked": false
+  },
+  {
+    "id": 14,
+    "question": "How many U.S. Senators are there?",
+    "choices": [
+      "100",
+      "50",
+      "435",
+      "200"
+    ],
+    "answer": "100",
+    "audio": "assets/civic_q14.mp3",
+    "description": "There are 100 U.S. Senators, with each state electing two senators to represent them in Congress.",
+    "bookmarked": false
+  },
+  {
+    "id": 15,
+    "question": "We elect a U.S. Senator for how many years?",
+    "choices": [
+      "6 years",
+      "4 years",
+      "2 years",
+      "8 years"
+    ],
+    "answer": "6 years",
+    "audio": "assets/civic_q15.mp3",
+    "description": "U.S. Senators serve six-year terms, with elections held every two years for approximately one-third of the Senate.",
+    "bookmarked": false
+  },
+  {
+    "id": 16,
+    "question": "Who is the Commander in Chief of the military?",
+    "choices": [
+      "The President",
+      "The Vice President",
+      "The Secretary of Defense",
+      "The Chief Justice"
+    ],
+    "answer": "The President",
+    "audio": "assets/civic_q16.mp3",
+    "description": "The President serves as Commander in Chief of the armed forces, making decisions on military matters and national defense.",
+    "bookmarked": false
+  },
+  {
+    "id": 17,
+    "question": "What is the highest court in the United States?",
+    "choices": [
+      "The Supreme Court",
+      "The Federal Court",
+      "The Court of Appeals",
+      "The District Court"
+    ],
+    "answer": "The Supreme Court",
+    "audio": "assets/civic_q17.mp3",
+    "description": "The Supreme Court is the highest judicial authority in the United States, with the power to review and interpret the laws and Constitution.",
+    "bookmarked": false
+  },
+  {
+    "id": 18,
+    "question": "How many justices are on the Supreme Court?",
+    "choices": [
+      "9",
+      "7",
+      "5",
+      "10"
+    ],
+    "answer": "9",
+    "audio": "assets/civic_q18.mp3",
+    "description": "The Supreme Court is composed of nine justices, including one Chief Justice and eight Associate Justices.",
+    "bookmarked": false
+  },
+  {
+    "id": 19,
+    "question": "We elect a U.S. Senator for how many years?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6",
+    "audio": "assets/civic_q19.mp3",
+    "description": "U.S. Senators are elected for a six-year term, ensuring stability and continuity in the legislative process.",
+    "bookmarked": false
+  },
+  {
+    "id": 20,
+    "question": "Who is one of your state's U.S. Senators now?",
+    "choices": [
+      "Adam Schiff",
+      "Nancy Pelosi",
+      "Diane Feinstein",
+      "Mitt Romney"
+    ],
+    "answer": "Adam Schiff",
+    "audio": "assets/civic_q20.mp3",
+    "description": "Each state has two U.S. Senators who represent the state's interests in Congress. Their names vary depending on the state.",
+    "bookmarked": false
+  },
+  {
+    "id": 21,
+    "question": "The House of Representatives has how many voting members?",
+    "choices": [
+      "100",
+      "200",
+      "435",
+      "300"
+    ],
+    "answer": "435",
+    "audio": "assets/civic_q21.mp3",
+    "description": "The House of Representatives has 435 voting members, with each state’s representation based on population.",
+    "bookmarked": false
+  },
+  {
+    "id": 22,
+    "question": "We elect a U.S. Representative for how many years?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "2",
+    "audio": "assets/civic_q22.mp3",
+    "description": "U.S. Representatives serve two-year terms, allowing for frequent elections to reflect the changing views of the public.",
+    "bookmarked": false
+  },
+  {
+    "id": 23,
+    "question": "Name your U.S. Representative.",
+    "choices": [
+      "Juan Vagart",
+      "John Doe",
+      "Adam Smith",
+      "Nancy Pelosi"
+    ],
+    "answer": "Juan Vagart",
+    "audio": "assets/civic_q23.mp3",
+    "description": "The U.S. Representative is the elected official who represents your district in the House of Representatives.",
+    "bookmarked": false
+  },
+  {
+    "id": 24,
+    "question": "Who does a U.S. Senator represent?",
+    "choices": [
+      "All people of the state",
+      "The President",
+      "The citizens of the U.S.",
+      "The state government"
+    ],
+    "answer": "All people of the state",
+    "audio": "assets/civic_q24.mp3",
+    "description": "A U.S. Senator represents all people within their state, working to address issues that affect the state’s citizens.",
+    "bookmarked": false
+  },
+  {
+    "id": 25,
+    "question": "Why do some states have more Representatives than other states?",
+    "choices": [
+      "Because of the state's population",
+      "Because they are bigger",
+      "Because they are older",
+      "Because of their wealth"
+    ],
+    "answer": "Because of the state's population",
+    "audio": "assets/civic_q25.mp3",
+    "description": "The number of Representatives a state has is based on its population, as determined by the Census every ten years.",
+    "bookmarked": false
+  },
+  {
+    "id": 26,
+    "question": "We elect a President for how many years?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "audio": "assets/civic_q26.mp3",
+    "description": "The President is elected for a four-year term, with the possibility of serving a second term.",
+    "bookmarked": false
+  },
+  {
+    "id": 27,
+    "question": "In what month do we vote for President?",
+    "choices": [
+      "November",
+      "December",
+      "October",
+      "January"
+    ],
+    "answer": "November",
+    "audio": "assets/civic_q27.mp3",
+    "description": "Presidential elections in the United States take place on the first Tuesday after the first Monday in November of every even-numbered year.",
+    "bookmarked": false
+  },
+  {
+    "id": 28,
+    "question": "What is the name of the President of the United States now?",
+    "choices": [
+      "Donald J. Trump",
+      "Joe Biden",
+      "Barack Obama",
+      "George W. Bush"
+    ],
+    "answer": "Donald J. Trump",
+    "audio": "assets/civic_q28.mp3",
+    "description": "The name of the current President may change depending on the year and the results of the most recent election.",
+    "bookmarked": false
+  },
+  {
+    "id": 29,
+    "question": "What is the name of the Vice President of the United States now?",
+    "choices": [
+      "Mike Pence",
+      "Kamala Harris",
+      "Joe Biden",
+      "JD Vance"
+    ],
+    "answer": "JD Vance",
+    "audio": "assets/civic_q29.mp3",
+    "description": "The Vice President is the second-highest office in the U.S. government, elected alongside the President.",
+    "bookmarked": false
+  },
+  {
+    "id": 30,
+    "question": "If the President can no longer serve, who becomes President?",
+    "choices": [
+      "The Speaker of the House",
+      "The Vice President",
+      "The Chief Justice",
+      "The Secretary of State"
+    ],
+    "answer": "The Vice President",
+    "audio": "assets/civic_q30.mp3",
+    "description": "If the President is unable to serve, the Vice President becomes the President, as established by the Constitution.",
+    "bookmarked": false
+  },
+  {
+    "id": 31,
+    "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+    "choices": [
+      "The Speaker of the House",
+      "The President Pro Tempore of the Senate",
+      "The Secretary of State",
+      "The Chief Justice"
+    ],
+    "answer": "The Speaker of the House",
+    "audio": "assets/civic_q31.mp3",
+    "description": "If both the President and Vice President are unable to serve, the Speaker of the House of Representatives becomes President.",
+    "bookmarked": false
+  },
+  {
+    "id": 32,
+    "question": "Who is the Commander in Chief of the military?",
+    "choices": [
+      "The President",
+      "The Vice President",
+      "The Secretary of Defense",
+      "The Secretary of State"
+    ],
+    "answer": "The President",
+    "audio": "assets/civic_q32.mp3",
+    "description": "The President is the Commander in Chief of the military, having ultimate authority over the armed forces.",
+    "bookmarked": false
+  },
+  {
+    "id": 33,
+    "question": "Who signs bills to become laws?",
+    "choices": [
+      "The President",
+      "The Speaker of the House",
+      "The Senate",
+      "The Chief Justice"
+    ],
+    "answer": "The President",
+    "audio": "assets/civic_q33.mp3",
+    "description": "The President has the power to sign bills passed by Congress, making them law, or veto them.",
+    "bookmarked": false
+  },
+  {
+    "id": 34,
+    "question": "Who vetoes bills?",
+    "choices": [
+      "The President",
+      "The Congress",
+      "The Supreme Court",
+      "The Senate"
+    ],
+    "answer": "The President",
+    "audio": "assets/civic_q34.mp3",
+    "description": "The President has the power to veto bills passed by Congress, which can be overridden by a two-thirds vote in both chambers of Congress.",
+    "bookmarked": false
+  },
+  {
+    "id": 35,
+    "question": "What does the President's Cabinet do?",
+    "choices": [
+      "Advises the President",
+      "Runs the military",
+      "Decides laws",
+      "Makes the budget"
+    ],
+    "answer": "Advises the President",
+    "audio": "assets/civic_q35.mp3",
+    "description": "The President's Cabinet is made up of the heads of various federal departments and agencies, advising the President on important matters.",
+    "bookmarked": false
+  },
+  {
+    "id": 36,
+    "question": "What are two Cabinet-level positions?",
+    "choices": [
+      "Attorney General and Vice President",
+      "Secretary of Defense and Secretary of State",
+      "Secretary of Health and Human Services and Secretary of Commerce",
+      "Secretary of Energy and Secretary of Agriculture"
+    ],
+    "answer": "Attorney General and Vice President",
+    "audio": "assets/civic_q36.mp3",
+    "description": "Cabinet-level positions include the heads of federal departments like the Attorney General, Secretary of Defense, and Secretary of State.",
+    "bookmarked": false
+  },
+  {
+    "id": 37,
+    "question": "What does the judicial branch do?",
+    "choices": [
+      "Explains laws",
+      "Makes laws",
+      "Enforces laws",
+      "Vetoes laws"
+    ],
+    "answer": "Explains laws",
+    "audio": "assets/civic_q37.mp3",
+    "description": "The judicial branch interprets and explains the laws passed by the legislative branch, ensuring they are applied fairly.",
+    "bookmarked": false
+  },
+  {
+    "id": 38,
+    "question": "What is the highest court in the United States?",
+    "choices": [
+      "The Supreme Court",
+      "The District Court",
+      "The Court of Appeals",
+      "The Federal Court"
+    ],
+    "answer": "The Supreme Court",
+    "audio": "assets/civic_q38.mp3",
+    "description": "The Supreme Court is the highest court in the United States, having the final authority on cases related to the Constitution and laws.",
+    "bookmarked": false
+  },
+  {
+    "id": 39,
+    "question": "How many justices are on the Supreme Court?",
+    "choices": [
+      "9",
+      "7",
+      "11",
+      "13"
+    ],
+    "answer": "9",
+    "audio": "assets/civic_q39.mp3",
+    "description": "The U.S. Supreme Court consists of nine justices, including one Chief Justice and eight Associate Justices.",
+    "bookmarked": false
+  },
+  {
+    "id": 40,
+    "question": "Who is the Chief Justice of the United States now?",
+    "choices": [
+      "John Roberts",
+      "Clarence Thomas",
+      "Brett Kavanaugh",
+      "Sonia Sotomayor"
+    ],
+    "answer": "John Roberts",
+    "audio": "assets/civic_q40.mp3",
+    "description": "The Chief Justice is the highest-ranking member of the U.S. Supreme Court and presides over its decisions.",
+    "bookmarked": false
+  },
+  {
+  "id": 41,
+  "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+  "choices": [
+    "To print money",
+    "To make marriage laws",
+    "To give driver's licenses",
+    "To control local schools"
+  ],
+  "answer": "To print money",
+  "audio": "assets/civic_q41.mp3",
+  "description": "The federal government has the authority to print money as part of its power to regulate currency and manage the nation's financial system.",
+  "bookmarked": false
+},
+{
+  "id": 42,
+  "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+  "choices": [
+    "To give driver's licenses",
+    "To coin money",
+    "To declare war",
+    "To establish a national military"
+  ],
+  "answer": "To give driver's licenses",
+  "audio": "assets/civic_q42.mp3",
+  "description": "States have the authority to issue driver's licenses, as it is a power reserved for state governments under the Tenth Amendment.",
+  "bookmarked": false
+},
+{
+  "id": 43,
+  "question": "Who is the Governor of your state now?",
+  "choices": [
+    "Gavin Newsom",
+    "Ron DeSantis",
+    "J.B. Pritzker",
+    "Andrew Cuomo"
+  ],
+  "answer": "Gavin Newsom",
+  "audio": "assets/civic_q43.mp3",
+  "description": "The Governor is the head of the executive branch of a state and is responsible for enforcing state laws and managing the state's government.",
+  "bookmarked": false
+},
+{
+  "id": 44,
+  "question": "What is the capital of your state?",
+  "choices": [
+    "Sacramento",
+    "Los Angeles",
+    "San Francisco",
+    "San Diego"
+  ],
+  "answer": "Sacramento",
+  "audio": "assets/civic_q44.mp3",
+  "description": "Sacramento is the capital of California, where the state's government and legislature meet.",
+  "bookmarked": false
+},
+{
+  "id": 45,
+  "question": "What are the two major political parties in the United States?",
+  "choices": [
+    "Democratic and Republican",
+    "Liberal and Conservative",
+    "Green and Libertarian",
+    "Republican and Tea Party"
+  ],
+  "answer": "Democratic and Republican",
+  "audio": "assets/civic_q45.mp3",
+  "description": "The two major political parties in the U.S. are the Democratic Party and the Republican Party, which represent differing ideologies and policies.",
+  "bookmarked": false
+},
+{
+  "id": 46,
+  "question": "What is the political party of the President now?",
+  "choices": [
+    "Democratic",
+    "Republican",
+    "Independent",
+    "Libertarian"
+  ],
+  "answer": "Republican",
+  "audio": "assets/civic_q46.mp3",
+  "description": "The President of the United States, as of the current administration, is a member of the Republican Party.",
+  "bookmarked": false
+},
+{
+  "id": 47,
+  "question": "What is the name of the Speaker of the House of Representatives now?",
+  "choices": [
+    "Nancy Pelosi",
+    "Mike Johnson",
+    "John Boehner",
+    "Paul Ryan"
+  ],
+  "answer": "Mike Johnson",
+  "audio": "assets/civic_q47.mp3",
+  "description": "The Speaker of the House of Representatives is the leader of the U.S. House and plays a key role in legislative functions and maintaining order in the House.",
+  "bookmarked": false
+},
+{
+  "id": 48,
+  "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+  "choices": [
+    "Citizens eighteen (18) and older (can vote)",
+    "Only men over twenty-one (21) can vote",
+    "Women can vote starting in 1919",
+    "Children can vote starting at age sixteen (16)"
+  ],
+  "answer": "Citizens eighteen (18) and older (can vote)",
+  "audio": "assets/civic_q48.mp3",
+  "description": "The 26th Amendment granted voting rights to U.S. citizens aged 18 and older, lowering the voting age from 21.",
+  "bookmarked": false
+},
+{
+  "id": 49,
+  "question": "What is one responsibility that is only for United States citizens?",
+  "choices": [
+    "Vote in a federal election",
+    "Pay taxes",
+    "Serve on a jury",
+    "Obey the law"
+  ],
+  "answer": "Vote in a federal election",
+  "audio": "assets/civic_q49.mp3",
+  "description": "Only U.S. citizens have the right and responsibility to vote in federal elections, including Presidential elections.",
+  "bookmarked": false
+},
+{
+  "id": 50,
+  "question": "Name one right only for United States citizens.",
+  "choices": [
+    "Vote in a federal election",
+    "Freedom of speech",
+    "Freedom of religion",
+    "Freedom to own property"
+  ],
+  "answer": "Vote in a federal election",
+  "audio": "assets/civic_q50.mp3",
+  "description": "U.S. citizens are entitled to the right to vote in federal elections, distinguishing them from non-citizens.",
+  "bookmarked": false
+},
+{
+  "id": 51,
+  "question": "What are two rights of everyone living in the United States?",
+  "choices": [
+    "Freedom of speech and freedom of religion",
+    "The right to bear arms and the right to privacy",
+    "The right to vote and the right to own property",
+    "The right to run for public office and the right to marry"
+  ],
+  "answer": "Freedom of speech and freedom of religion",
+  "audio": "assets/civic_q51.mp3",
+  "description": "Everyone in the U.S. is entitled to basic rights, such as freedom of speech and freedom of religion, regardless of citizenship status.",
+  "bookmarked": false
+},
+{
+  "id": 52,
+  "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+  "choices": [
+    "The flag",
+    "The President",
+    "The United Kingdom",
+    "The Constitution"
+  ],
+  "answer": "The flag",
+  "audio": "assets/civic_q52.mp3",
+  "description": "The Pledge of Allegiance is a patriotic expression of loyalty to the American flag, symbolizing allegiance to the nation.",
+  "bookmarked": false
+},
+{
+  "id": 53,
+  "question": "What is one promise you make when you become a United States citizen?",
+  "choices": [
+    "Be loyal to the United States",
+    "Obey the Constitution",
+    "Serve in the military",
+    "Vote in a federal election"
+  ],
+  "answer": "Be loyal to the United States",
+  "audio": "assets/civic_q53.mp3",
+  "description": "Upon becoming a U.S. citizen, one promises loyalty to the United States and its Constitution.",
+  "bookmarked": false
+},
+{
+  "id": 54,
+  "question": "How old do citizens have to be to vote for President?",
+  "choices": [
+    "18 and older",
+    "21 and older",
+    "16 and older",
+    "25 and older"
+  ],
+  "answer": "18 and older",
+  "audio": "assets/civic_q54.mp3",
+  "description": "According to the 26th Amendment, citizens must be at least 18 years old to vote in Presidential elections.",
+  "bookmarked": false
+},
+{
+  "id": 55,
+  "question": "What are two ways that Americans can participate in their democracy?",
+  "choices": [
+    "Join a political party and help with a campaign",
+    "Join the military and pay taxes",
+    "Serve on a jury and volunteer in the community",
+    "Run for office and make laws"
+  ],
+  "answer": "Join a political party and help with a campaign",
+  "audio": "assets/civic_q55.mp3",
+  "description": "Americans can participate in democracy by joining a political party or helping with a campaign, among other activities.",
+  "bookmarked": false
+},
+{
+  "id": 56,
+  "question": "When is the last day you can send in federal income tax forms?",
+  "choices": [
+    "April 15",
+    "May 1",
+    "March 1",
+    "January 15"
+  ],
+  "answer": "April 15",
+  "audio": "assets/civic_q56.mp3",
+  "description": "The deadline for filing federal income tax returns is typically April 15 of each year, unless extended.",
+  "bookmarked": false
+},
+{
+  "id": 57,
+  "question": "When must all men register for the Selective Service?",
+  "choices": [
+    "Between 18 and 26",
+    "Between 20 and 35",
+    "Between 21 and 40",
+    "Between 16 and 18"
+  ],
+  "answer": "Between 18 and 26",
+  "audio": "assets/civic_q57.mp3",
+  "description": "Men in the U.S. are required to register for the Selective Service between the ages of 18 and 26.",
+  "bookmarked": false
+},
+{
+  "id": 58,
+  "question": "What is one reason colonists came to America?",
+  "choices": [
+    "Freedom",
+    "Money",
+    "Land",
+    "Slavery"
+  ],
+  "answer": "Freedom",
+  "audio": "assets/civic_q58.mp3",
+  "description": "Many colonists came to America seeking religious freedom and escape from political oppression.",
+  "bookmarked": false
+},
+{
+  "id": 59,
+  "question": "Who lived in America before the Europeans arrived?",
+  "choices": [
+    "Native Americans",
+    "African slaves",
+    "European settlers",
+    "Asian immigrants"
+  ],
+  "answer": "Native Americans",
+  "audio": "assets/civic_q59.mp3",
+  "description": "Native Americans were the first inhabitants of the land now known as the United States, with diverse cultures and civilizations.",
+  "bookmarked": false
+},
+{
+  "id": 60,
+  "question": "What group of people was taken to America and sold as slaves?",
+  "choices": [
+    "People from Africa",
+    "People from Europe",
+    "Native Americans",
+    "People from Asia"
+  ],
+  "answer": "People from Africa",
+  "audio": "assets/civic_q60.mp3",
+  "description": "People from Africa were forcibly brought to America and sold into slavery, primarily between the 17th and 19th centuries.",
+  "bookmarked": false
+},
+{
+  "id": 61,
+  "question": "Why did the colonists fight the British?",
+  "choices": [
+    "Because they didn't have self-government",
+    "To gain independence",
+    "Because of taxes",
+    "Because of British control over trade"
+  ],
+  "answer": "Because they didn't have self-government",
+  "audio": "assets/civic_q61.mp3",
+  "description": "The colonists fought the British due to lack of self-government and other grievances, including taxation without representation.",
+  "bookmarked": false
+},
+{
+  "id": 62,
+  "question": "Who wrote the Declaration of Independence?",
+  "choices": [
+    "Thomas Jefferson",
+    "Abraham Lincoln",
+    "George Washington",
+    "James Madison"
+  ],
+  "answer": "Thomas Jefferson",
+  "audio": "assets/civic_q62.mp3",
+  "description": "Thomas Jefferson is credited with writing the Declaration of Independence in 1776.",
+  "bookmarked": false
+},
+{
+  "id": 63,
+  "question": "When was the Declaration of Independence adopted?",
+  "choices": [
+    "July 4, 1776",
+    "June 4, 1776",
+    "July 14, 1777",
+    "August 2, 1776"
+  ],
+  "answer": "July 4, 1776",
+  "audio": "assets/civic_q63.mp3",
+  "description": "The Declaration of Independence was adopted on July 4, 1776, marking the beginning of the United States as an independent nation.",
+  "bookmarked": false
+},
+{
+  "id": 64,
+  "question": "There were 13 original states. Name three.",
+  "choices": [
+    "New Hampshire, New York, New Jersey",
+    "Texas, Florida, Georgia",
+    "California, Nevada, Oregon",
+    "Ohio, Michigan, Illinois"
+  ],
+  "answer": "New Hampshire, New York, New Jersey",
+  "audio": "assets/civic_q64.mp3",
+  "description": "New Hampshire, New York, and New Jersey were among the original 13 states that formed the United States.",
+  "bookmarked": false
+},
+{
+  "id": 65,
+  "question": "What happened at the Constitutional Convention?",
+  "choices": [
+    "The Constitution was written.",
+    "The Declaration of Independence was signed.",
+    "George Washington was elected President.",
+    "The Bill of Rights was adopted."
+  ],
+  "answer": "The Constitution was written.",
+  "audio": "assets/civic_q65.mp3",
+  "description": "The Constitutional Convention took place in 1787, where the U.S. Constitution was drafted to replace the Articles of Confederation.",
+  "bookmarked": false
+},
+{
+  "id": 66,
+  "question": "When was the Constitution written?",
+  "choices": [
+    "1787",
+    "1776",
+    "1791",
+    "1803"
+  ],
+  "answer": "1787",
+  "audio": "assets/civic_q66.mp3",
+  "description": "The U.S. Constitution was written in 1787 at the Constitutional Convention in Philadelphia.",
+  "bookmarked": false
+},
+{
+  "id": 67,
+  "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+  "choices": [
+    "John Jay",
+    "Thomas Jefferson",
+    "George Washington",
+    "John Adams"
+  ],
+  "answer": "John Jay",
+  "audio": "assets/civic_q67.mp3",
+  "description": "John Jay was one of the authors of the Federalist Papers, which helped to promote the ratification of the U.S. Constitution.",
+  "bookmarked": false
+},
+{
+  "id": 68,
+  "question": "What is one thing Benjamin Franklin is famous for?",
+  "choices": [
+    "Started the first free libraries",
+    "Was the first President",
+    "Led the Continental Army",
+    "Signed the Emancipation Proclamation"
+  ],
+  "answer": "Started the first free libraries",
+  "audio": "assets/civic_q68.mp3",
+  "description": "Benjamin Franklin is known for his contributions to founding the first free libraries in America, as well as being a Founding Father.",
+  "bookmarked": false
+},
+{
+  "id": 69,
+  "question": "Who is the 'Father of Our Country'?",
+  "choices": [
+    "George Washington",
+    "Thomas Jefferson",
+    "Abraham Lincoln",
+    "James Madison"
+  ],
+  "answer": "George Washington",
+  "audio": "assets/civic_q69.mp3",
+  "description": "George Washington is often called the 'Father of Our Country' for leading the nation to independence and becoming the first President.",
+  "bookmarked": false
+},
+{
+  "id": 70,
+  "question": "Who was the first President?",
+  "choices": [
+    "George Washington",
+    "John Adams",
+    "Thomas Jefferson",
+    "James Monroe"
+  ],
+  "answer": "George Washington",
+  "audio": "assets/civic_q70.mp3",
+  "description": "George Washington served as the first President of the United States from 1789 to 1797.",
+  "bookmarked": false
+},
+{
+  "id": 71,
+  "question": "What territory did the United States buy from France in 1803?",
+  "choices": [
+    "Louisiana",
+    "Alaska",
+    "Texas",
+    "California"
+  ],
+  "answer": "Louisiana",
+  "audio": "assets/civic_q71.mp3",
+  "description": "The U.S. purchased the Louisiana Territory from France in 1803, doubling the size of the country.",
+  "bookmarked": false
+},
+{
+  "id": 72,
+  "question": "Name one war fought by the United States in the 1800s.",
+  "choices": [
+    "Civil War",
+    "World War I",
+    "World War II",
+    "War of 1812"
+  ],
+  "answer": "Civil War",
+  "audio": "assets/civic_q72.mp3",
+  "description": "The Civil War was fought between the North and South from 1861 to 1865.",
+  "bookmarked": false
+},
+{
+  "id": 73,
+  "question": "Name the U.S. war between the North and the South.",
+  "choices": [
+    "Civil War",
+    "Revolutionary War",
+    "World War I",
+    "War of 1812"
+  ],
+  "answer": "Civil War",
+  "audio": "assets/civic_q73.mp3",
+  "description": "The Civil War was the conflict between the Northern states (Union) and Southern states (Confederacy) from 1861 to 1865.",
+  "bookmarked": false
+},
+{
+  "id": 74,
+  "question": "Name one problem that led to the Civil War.",
+  "choices": [
+    "Slavery",
+    "Taxes",
+    "Territorial expansion",
+    "Trade restrictions"
+  ],
+  "answer": "Slavery",
+  "audio": "assets/civic_q74.mp3",
+  "description": "Slavery was a key issue that led to the outbreak of the Civil War in 1861.",
+  "bookmarked": false
+},
+{
+  "id": 75,
+  "question": "What was one important thing that Abraham Lincoln did?",
+  "choices": [
+    "Freed the slaves (Emancipation Proclamation)",
+    "Started the Civil Rights movement",
+    "Bought Alaska",
+    "Helped write the Declaration of Independence"
+  ],
+  "answer": "Freed the slaves (Emancipation Proclamation)",
+  "audio": "assets/civic_q75.mp3",
+  "description": "Abraham Lincoln is most famous for issuing the Emancipation Proclamation, which freed slaves in the Confederate states.",
+  "bookmarked": false
+},
+{
+  "id": 76,
+  "question": "What did the Emancipation Proclamation do?",
+  "choices": [
+    "Freed the slaves",
+    "Ended the Civil War",
+    "Made slavery legal",
+    "Gave freedom to all Americans"
+  ],
+  "answer": "Freed the slaves",
+  "audio": "assets/civic_q76.mp3",
+  "description": "The Emancipation Proclamation, issued by President Abraham Lincoln in 1863, declared freedom for slaves in Confederate states.",
+  "bookmarked": false
+},
+{
+  "id": 77,
+  "question": "What did Susan B. Anthony do?",
+  "choices": [
+    "Fought for women's rights",
+    "Started the abolitionist movement",
+    "Fought for civil rights",
+    "Fought for the right to vote for African Americans"
+  ],
+  "answer": "Fought for women's rights",
+  "audio": "assets/civic_q77.mp3",
+  "description": "Susan B. Anthony was a leading figure in the women's suffrage movement and worked tirelessly for women's right to vote.",
+  "bookmarked": false
+},
+{
+  "id": 78,
+  "question": "Name one war fought by the United States in the 1900s.",
+  "choices": [
+    "World War I",
+    "Revolutionary War",
+    "War of 1812",
+    "Spanish-American War"
+  ],
+  "answer": "World War I",
+  "audio": "assets/civic_q78.mp3",
+  "description": "The U.S. fought in World War I from 1917 to 1918, joining the Allies against Germany and the Central Powers.",
+  "bookmarked": false
+},
+{
+  "id": 79,
+  "question": "Who was President during World War I?",
+  "choices": [
+    "Woodrow Wilson",
+    "Theodore Roosevelt",
+    "Franklin Roosevelt",
+    "Dwight D. Eisenhower"
+  ],
+  "answer": "Woodrow Wilson",
+  "audio": "assets/civic_q79.mp3",
+  "description": "Woodrow Wilson served as President during World War I, from 1913 to 1921.",
+  "bookmarked": false
+},
+{
+  "id": 80,
+  "question": "Who was President during the Great Depression and World War II?",
+  "choices": [
+    "Franklin Roosevelt",
+    "Herbert Hoover",
+    "Harry Truman",
+    "John F. Kennedy"
+  ],
+  "answer": "Franklin Roosevelt",
+  "audio": "assets/civic_q80.mp3",
+  "description": "Franklin D. Roosevelt served as President from 1933 to 1945, leading the U.S. through the Great Depression and most of World War II.",
+  "bookmarked": false
+},
+  {
+    "id": 81,
+    "question": "Who did the United States fight in World War II?",
+    "choices": [
+      "Japan, Germany, and Italy",
+      "Japan and China",
+      "Italy and France",
+      "Germany and Austria"
+    ],
+    "answer": "Japan, Germany, and Italy",
+    "audio": "assets/civic_q81.mp3"
+  },
+  {
+    "id": 82,
+    "question": "Before he was President, Eisenhower was a general. What war was he in?",
+    "choices": [
+      "World War II",
+      "Korean War",
+      "Vietnam War",
+      "World War I"
+    ],
+    "answer": "World War II",
+    "audio": "assets/civic_q82.mp3"
+  },
+  {
+    "id": 83,
+    "question": "During the Cold War, what was the main concern of the United States?",
+    "choices": [
+      "Communism",
+      "Nuclear weapons",
+      "War with Russia",
+      "Territorial expansion"
+    ],
+    "answer": "Communism",
+    "audio": "assets/civic_q83.mp3"
+  },
+  {
+    "id": 84,
+    "question": "What movement tried to end racial discrimination?",
+    "choices": [
+      "Civil rights movement",
+      "Women's rights movement",
+      "Abolitionist movement",
+      "Labor movement"
+    ],
+    "answer": "Civil rights movement",
+    "audio": "assets/civic_q84.mp3"
+  },
+  {
+    "id": 85,
+    "question": "What did Martin Luther King, Jr. do?",
+    "choices": [
+      "Fought for civil rights",
+      "Fought for women's rights",
+      "Started the Civil Rights movement",
+      "Led the abolitionist movement"
+    ],
+    "answer": "Fought for civil rights",
+    "audio": "assets/civic_q85.mp3"
+  },
+  {
+    "id": 86,
+    "question": "What major event happened on September 11, 2001, in the United States?",
+    "choices": [
+      "Terrorists attacked the United States",
+      "The stock market crashed",
+      "The U.S. entered World War II",
+      "The U.S. won the Cold War"
+    ],
+    "answer": "Terrorists attacked the United States",
+    "audio": "assets/civic_q86.mp3"
+  },
+  {
+    "id": 87,
+    "question": "Name one American Indian tribe in the United States.",
+    "choices": [
+      "Navajo",
+      "Cherokee",
+      "Sioux",
+      "Iroquois"
+    ],
+    "answer": "Navajo",
+    "audio": "assets/civic_q87.mp3"
+  },
+  {
+    "id": 88,
+    "question": "Name one of the two longest rivers in the United States.",
+    "choices": [
+      "Mississippi River",
+      "Amazon River",
+      "Colorado River",
+      "Hudson River"
+    ],
+    "answer": "Mississippi River",
+    "audio": "assets/civic_q88.mp3"
+  },
+  {
+    "id": 89,
+    "question": "What ocean is on the West Coast of the United States?",
+    "choices": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "answer": "Pacific Ocean",
+    "audio": "assets/civic_q89.mp3"
+  },
+  {
+    "id": 90,
+    "question": "What ocean is on the East Coast of the United States?",
+    "choices": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "answer": "Atlantic Ocean",
+    "audio": "assets/civic_q90.mp3"
+  },
+  {
+    "id": 91,
+    "question": "Name one U.S. territory.",
+    "choices": [
+      "Guam",
+      "Puerto Rico",
+      "Virgin Islands",
+      "American Samoa"
+    ],
+    "answer": "Guam",
+    "audio": "assets/civic_q91.mp3"
+  },
+  {
+    "id": 92,
+    "question": "Name one state that borders Canada.",
+    "choices": [
+      "New Hampshire",
+      "Texas",
+      "California",
+      "Florida"
+    ],
+    "answer": "New Hampshire",
+    "audio": "assets/civic_q92.mp3"
+  },
+  {
+    "id": 93,
+    "question": "Name one state that borders Mexico.",
+    "choices": [
+      "California",
+      "Florida",
+      "Maine",
+      "New York"
+    ],
+    "answer": "California",
+    "audio": "assets/civic_q93.mp3"
+  },
+  {
+    "id": 94,
+    "question": "What is the capital of the United States?",
+    "choices": [
+      "Washington, D.C.",
+      "New York",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "answer": "Washington, D.C.",
+    "audio": "assets/civic_q94.mp3"
+  },
+  {
+    "id": 95,
+    "question": "Where is the Statue of Liberty?",
+    "choices": [
+      "New York Harbor",
+      "San Francisco Harbor",
+      "Miami",
+      "Washington, D.C."
+    ],
+    "answer": "New York Harbor",
+    "audio": "assets/civic_q95.mp3"
+  },
+  {
+    "id": 96,
+    "question": "Why does the flag have 13 stripes?",
+    "choices": [
+      "Because there were 13 original colonies",
+      "To represent the 13 amendments",
+      "Because the first President was George Washington",
+      "To honor the 13 states"
+    ],
+    "answer": "Because there were 13 original colonies",
+    "audio": "assets/civic_q96.mp3"
+  },
+  {
+    "id": 97,
+    "question": "Why does the flag have 50 stars?",
+    "choices": [
+      "Because there are 50 states",
+      "Because there are 50 senators",
+      "To represent the number of colonies",
+      "Because of the 50th state"
+    ],
+    "answer": "Because there are 50 states",
+    "audio": "assets/civic_q97.mp3"
+  },
+  {
+    "id": 98,
+    "question": "What is the name of the national anthem?",
+    "choices": [
+      "The Star-Spangled Banner",
+      "America the Beautiful",
+      "God Bless America",
+      "My Country, 'Tis of Thee"
+    ],
+    "answer": "The Star-Spangled Banner",
+    "audio": "assets/civic_q98.mp3"
+  },
+  {
+    "id": 99,
+    "question": "When do we celebrate Independence Day?",
+    "choices": [
+      "July 4",
+      "August 15",
+      "November 11",
+      "December 25"
+    ],
+    "answer": "July 4",
+    "audio": "assets/civic_q99.mp3"
+  },
+  {
+    "id": 100,
+    "question": "Name two national U.S. holidays.",
+    "choices": [
+      "Black Friday and Christmas",
+      "Easter and Cyber Monday",
+      "Speaker day and Veterans Day",
+      "New Year's Day and Christmas"
+    ],
+    "answer": "New Year's Day and Christmas",
+    "audio": "assets/civic_q100.mp3"
+  }
+]

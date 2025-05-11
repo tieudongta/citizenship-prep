@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #quiz-container {
+      padding: 20px;
+    }
+    .question {
+      font-size: 1.5rem;
+    }
+    .options {
+      margin-top: 10px;
+    }
+    .option-button {
+      display: block;
+      margin: 5px 0;
+      padding: 10px;
+      background-color: #3399ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .option-button:hover {
+      background-color: #287ec4;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="quiz-container">
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+</body>
+</html>

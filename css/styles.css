@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #0077b6;     /* Ocean blue */
+  --secondary-color: #90e0ef;   /* Light ocean blue */
+  --accent-color: #00b4d8;
+  --bg-color: #e0f7fa;
+  --text-color: #022b3a;
+  --button-text-color: white;
+  --font-base: 18px;
+  --font-large: 22px;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: var(--font-base);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 10px;
+}
+main {
+  max-width: 480px;
+  margin: auto;
+}
+section {
+  /* display: none; */
+  min-height: 100vh;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+section.active {
+  display: block;
+}
+h1, h2 {
+  color: var(--primary-color);
+  font-size: var(--font-large);
+  margin-bottom: 20px;
+}
+button {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  padding: 14px 20px;
+  margin: 10px auto;
+  border-radius: 12px;
+  font-size: 1rem;
+  width: 90%;
+  max-width: 320px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: var(--accent-color);
+}
+#questionContainer {
+  margin: 20px 0;
+}
+#progressContainer {
+  margin: 10px 0;
+  text-align: center;
+}
+progress {
+  width: 100%;
+  height: 12px;
+  border-radius: 6px;
+  appearance: none;
+}
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 6px;
+}
+progress::-webkit-progress-value {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+}
+
+canvas {
+  margin-top: 20px;
+}
+* Theme Toggle Button */
+#themeToggleBtn {
+  font-size: 20px;
+  color: yellow;
+  padding: 0;
+  margin: 0;
+}
+
+body.dark-mode #themeToggleBtn {
+  color: var(--accent-color);
+  box-shadow: none;
+}
+
+
+body.dark-mode {
+  --primary-color: #222;
+  --secondary-color: #444;
+  --accent-color: #00b4d8;
+  --bg-color: #121212;
+  --text-color: #e0f7fa;
+  --button-text-color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.dark-mode section {
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+body.dark-mode button {
+  background-color: var(--secondary-color);
+  color: var(--button-text-color);
+}
+body.dark-mode button:hover {
+  background-color: var(--accent-color);
+  color: var(--button-text-color);
+}
+
+body.dark-mode #themeToggleBtn {
+  /* background-color: transparent !important; */
+  border-color: #90e0ef;
+  color: #90e0ef;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#themeIcon {
+  background-color: transparent;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  padding-left: 12em;
+  padding-top: 1em;
+}
+#header-row {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+body.dark-mode #themeIcon {
+  color: var(--accent-color);
+}
+body.dark-mode h1, body.dark-mode h2 {
+  color: var(--accent-color);
+}
+.welcome-message {
+  background-color: var(--secondary-color);
+  padding: 15px;
+  border-radius: 12px;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+body.dark-mode .welcome-message {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+}
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "What is the supreme law of the land?",
+    "choices": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Emancipation Proclamation"
+    ],
+    "answer": "The Constitution",
+    "audio": "assets/civic_q1.mp3"
+  },
+  {
+    "id": 2,
+    "question": "What does the Constitution do?",
+    "choices": [
+      "Declares war",
+      "Sets up the government",
+      "Frees the slaves",
+      "Starts the economy"
+    ],
+    "answer": "Sets up the government",
+    "audio": "assets/civic_q2.mp3"
+  },
+  {
+    "id": 3,
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "choices": [
+      "We the People",
+      "To be decided",
+      "In God We Trust",
+      "E Pluribus Unum"
+    ],
+    "answer": "We the People",
+    "audio": "assets/civic_q3.mp3"
+  },
+  {
+    "id": 4,
+    "question": "What is an amendment?",
+    "choices": [
+      "An introduction",
+      "A change (to the Constitution)",
+      "A declaration",
+      "A law passed by Congress"
+    ],
+    "answer": "A change (to the Constitution)",
+    "audio": "assets/civic_q4.mp3"
+  }
+]
