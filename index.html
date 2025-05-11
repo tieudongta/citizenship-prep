@@ -1,97 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Civic Prep App</title>
-  <link rel="stylesheet" href="css/styles.css" />
-    <meta name="description" content="Civic Exam Prep App" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizenship Exam Prep</title>
+  <link rel="stylesheet" href="css/civic.css">
+  <meta name="description" content="Civic Exam Prep App" />
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
+  <header>
+    Citizenship Exam Prep
+    <button class="dark-mode-toggle">🌙</button>
+  </header>
 
   <main>
-    <div id="header-row">
-        <h1>Civic Exam Prep</h1>
-        <button id="themeToggleBtn" aria-label="Toggle theme" style="background-color: transparent; width: min-content;">
-          <i id="themeIcon" class="fas fa-moon"></i>
-        </button>
+    <div id="home-view" class="view active-view">
+      <div class="info-area">Welcome! Choose your preferred language to begin.</div>
+      <div class="button-area">
+        <button id="en">English</button>
+        <button id="vi">Vietnamese</button>
+        <button id="es">Spanish</button>
+        <button class="btn nav-btn" id="credit">Credit</button>
       </div>
-    <!-- Home Page -->
-    <section id="homePage">
-        <h2 id="testTitle">Select Language</h2>
-          <div class="welcome-message">
-            <p>Welcome! We’re here to help you succeed. 🇺🇸</p>
-            <p>Take your time, practice well, and good luck on your journey to citizenship!</p>
+    </div>
+
+    <div id="test-select-view" class="view">
+      <div class="info-area">Select the type of test you'd like to take.</div>
+      <div class="button-area">
+        <button id="civic">Civic</button>
+        <button id="n400">N400</button>
+        <button id="review">Review</button>
+        <button id="vocab">Flashcards</button>
+      </div>
+    </div>
+
+    <div id="quiz-view" class="view">
+      <div class="info-area">Question will appear here</div>
+      <div class="button-area">
+        <button class="answer-option">Option 1</button>
+        <button class="answer-option">Option 2</button>
+        <button class="answer-option">Option 3</button>
+        <button class="answer-option">Option 4</button>
+      </div>
+    </div>
+
+    <div id="answer-view" class="view">
+      <div class="info-area">Correct answer and explanation will appear here</div>
+      <div class="button-area">
+        <button id="next-question">Next</button>
+        <button id="quit-to-home">Quit</button>
+      </div>
+    </div>
+
+    <div id="result-view" class="view">
+      <div class="info-area">
+        <canvas id="resultChart" width="300" height="300"></canvas>
+      </div>
+      <div class="button-area">
+        <button id="restart-test">Restart</button>
+        <button class="quit">Quit</button>
+      </div>
+    </div>
+
+    <div id="flashcards-view" class="view">
+      <div class="info-area">
+        <dive class="card-container">
+          <div class="card">
+            <div class="card-front">Flashcard Front</div>
+            <div class="card-back">Flashcard Back</div>
           </div>
-      <div>
-        <button class="langBtn" data-lang="en">English</button>
-        <button class="langBtn" data-lang="vi">Vietnamese</button>
-        <button class="langBtn" data-lang="es">Spanish</button>
-        <button id="continueBtn" class="hidden">Continue Previous Quiz</button>
       </div>
-    </section>
-
-    <!-- Test Type Page -->
-    <section id="testTypePage" class="hidden">
-        <h2 id="testTitle">Select Type of Test</h2>
-        <div class="welcome-message">
-            <p>Welcome! We’re here to help you succeed. 🇺🇸</p>
-            <p>Take your time, practice well, and good luck on your journey to citizenship!</p>
-          </div>
-      <button class="testTypeBtn" data-type="civics">Civics Test</button>
-      <button class="testTypeBtn" data-type="n400">N-400 Interview</button>
-      <button id="reviewFlashcardsBtn">Vocabulary Helper</button>
-      <button class="testTypeBtn" data-type="missed">Review Missed</button>
-
-    </section>
-
-    <!-- Quiz Page -->
-    <section id="testPage" class="hidden">
-      <h2 id="testTitle">Test Title</h2>
-      <div id="questionContainer"></div>
-      <div id="progressContainer">
-        <span id="progressText">0 / 0</span>
-        <progress id="progressBar" value="0" max="100"></progress>
+      <div class="button-area">
+        <button id="prev-card">Previous</button>
+        <!-- <button id="flip-card">Flip</button> -->
+        <button id="next-card">Next</button>
+        <button id="quit-flashcards">Quit</button>
       </div>
-      <button id="quitBtn">Quit</button>
-    </section>
-    <!-- Explanation Page -->
-     <section id="explanationPage" class="hidden">
-        <h2>Explanation</h2>
-        <p id="explanationFeedback"></p>
-        <p id="explanationText"></p>
-        <button id="contBtn" onclick="handleContinue()">Continue</button>
-    </section>
+    </div>
 
-    <!-- Result Page -->
-    <section id="resultPage" class="hidden">
-      <h2>Test Results</h2>
-      <p id="scoreSummary"></p>
-      <canvas id="scoreChart" width="200" height="200"></canvas>
-      <div>
-        <button id="restartBtn">Retake Test</button>
-        <button id="reviewMissedBtn">Review Missed Questions</button>
-        <button id="homeBtn">Back to Home</button>
+    <div id="credit-view" class="view">
+      <div class="info-area">App created by John Doe</div>
+      <div class="button-area">
+        <button id="credit-home">Home</button>
       </div>
-    </section>
-    <!-- Vocabulary Helper Page -->
-     <section id="flashcardPage" class="hidden">
-      <div id="flashcard">
-        <div id="flashcardContent">
-          
-      </div>
-    </section>
-
+    </div>
   </main>
 
-  <script src="js/app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <footer>
+    <img src="/assets/logo.png" alt="App Icon"> Created by Nhiem Nguyen — nhiem.nguyentri@gmail.com
+  </footer>
 
+  <script src="js/civic.js"></script>
+   <script src="js/data.js"></script>
+  </script>
 </body>
 </html>
