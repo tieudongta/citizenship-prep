@@ -22,6 +22,7 @@ const testTypePage = document.getElementById('testTypePage');
 const testTypeButtons = document.querySelectorAll('.testTypeBtn');
 const testPage = document.getElementById('testPage');
 const quitBtn = document.getElementById('quitBtn');
+const quitMiddleBtn = document.getElementById('quitMiddleBtn');
 const resultPage = document.getElementById('resultPage');
 const restartBtn = document.getElementById('restartBtn');
 const homeBtn = document.getElementById('homeBtn');
@@ -148,7 +149,14 @@ quitBtn.addEventListener('click', () => {
   saveAppState();
 });
 
-
+quitMiddleBtn.addEventListener('click', () => {
+  console.log(`User quit the test. Score: ${appState.score}`);
+  console.log("Chart ID", myChart);
+  showTestResults();
+  explanationPage.classList.add('hidden');
+  resultPage.classList.remove('hidden');
+  saveAppState();
+});
 
 restartBtn.addEventListener('click', () => {
  // Reset the app state to restart the test
@@ -180,11 +188,12 @@ function resetAppState() {
 // Display questions
 function displayQuestion(index) {
   const container = document.getElementById('questionContainer');
+  const buttonArea = document.querySelector('#testPage .button-area');
   const questionData = appState.questions[index];
 
   // Clear existing content
   container.innerHTML = '';
-
+  buttonArea.innerHTML = '';
   // Add question text
   const questionEl = document.createElement('h3');
   questionEl.textContent = questionData.question;
@@ -196,7 +205,8 @@ function displayQuestion(index) {
     btn.textContent = choice;
     btn.className = 'answerBtn';
     btn.dataset.index = i;
-    container.appendChild(btn);
+    buttonArea.appendChild(btn);
+   
     btn.addEventListener('click', () => {
       const isCorrect = choice === questionData.answer;
       //store result
@@ -305,8 +315,8 @@ function displayPieChart() {
   const chartCanvas = document.getElementById('scoreChart');
   
   // Clear the canvas before drawing
-  chartCanvas.width = 400; // Set the width of the canvas
-  chartCanvas.height = 400; // Set the height of the canvas
+  chartCanvas.width = 200; // Set the width of the canvas
+  chartCanvas.height = 200; // Set the height of the canvas
   // Clear the canvas
   if (chartCanvas.getContext) {
     chartCanvas.getContext('2d').clearRect(0, 0, chartCanvas.width, chartCanvas.height);
@@ -482,6 +492,7 @@ document.getElementById('reviewFlashcardsBtn').onclick = () => {
     alert("No missed questions to review.");
     return;
   }
+  console.log("Reviewing missed questions...");
   currentCardIndex = 0;
   showFlashcard(flashcards.missed[0]);
   testResultPage.classList.add('hidden');
@@ -495,7 +506,8 @@ async function loadVocabulary(languageCode) {
     const vocabList = await response.json();
     flashcards.vocab = vocabList.map(item => ({
       front: item.word,
-      back: `${item.definition}\n\nExample: ${item.example}`
+      back: item.definition,
+      id: item.id,
     }));
     appState.flashcardSource = 'vocab';
     appState.flashcards = flashcards.vocab;
@@ -518,47 +530,6 @@ document.getElementById('reviewFlashcardsBtn').onclick = () => {
   // homePage.classList.add('hidden');
   // flashcardPage.classList.remove('hidden');
 };
-function showFlashcardPage() {
-  const flashcard = appState.flashcards[appState.currentFlashcardIndex];
-  homePage.classList.add('hidden');
-  testTypePage.classList.add('hidden');
-  testPage.classList.add('hidden');
-  resultPage.classList.add('hidden');
-  explanationPage.classList.add('hidden');
-  flashcardPage.classList.remove('hidden');
-  console.log(flashcards);
-  if (flashcards.vocab.length === 0) {
-    flashcardPage.innerHTML = "<p>No flashcards available.</p>";
-    return;
-  }
-  const flashcardContent = document.getElementById('flashcardContent');
-  // Clear the flashcard page
-  flashcardContent.innerHTML = '';
-  // Create the flashcard element
-
-  flashcardContent.innerHTML = `
-    <div class="flashcard">
-      <h2>${flashcards.vocab[currentCardIndex].front}</h2>
-      <p><strong>Meaning:</strong> ${flashcards.vocab[currentCardIndex].back}</p>
-      <p><strong>Example:</strong> ${flashcards.vocab[currentCardIndex].example || "N/A"}</p>
-      <button id="flipBtnF">Flip</button>
-      <button id="nextCardBtn">Next</button>
-    </div>
-  `;
-
-  // Flip logic
-  document.getElementById('#flipBtnF').forEach(btn => {
-    btn.onclick = () => {
-      document.getElementById('cardBack').classList.toggle('hidden');
-      document.getElementById('cardFront').classList.toggle('hidden');
-    };
-  });
-
-  document.getElementById('nextFlashcardBtn').onclick = () => {
-    appState.currentFlashcardIndex = (appState.currentFlashcardIndex + 1) % appState.flashcards.length;
-    showFlashcardPage();
-  };
-}
 
 function playAudio(audioSrc) {
   // Stop any currently playing audio
@@ -572,4 +543,205 @@ function playAudio(audioSrc) {
   currentAudio.play().catch(err => {
     console.warn("Audio playback failed:", err);
   });
+}
+// function showFlashcardPage() {
+//   const flashcards = appState.flashcards;
+//   const currentIndex = appState.currentFlashcardIndex;
+//   const flashcard = flashcards[currentIndex];
+
+//   homePage.classList.add('hidden');
+//   testTypePage.classList.add('hidden');
+//   testPage.classList.add('hidden');
+//   resultPage.classList.add('hidden');
+//   explanationPage.classList.add('hidden');
+//   flashcardPage.classList.remove('hidden');
+
+//   if (flashcards.length === 0) {
+//     flashcardPage.innerHTML = "<p>No flashcards available.</p>";
+//     return;
+//   }
+
+//   const flashcardContent = document.getElementById('flashcardContent');
+//   flashcardContent.innerHTML = `
+//     <div class="flashcard">
+//       <div id="cardFront">
+//         <p><h2>${flashcard.front}</h2></p>
+//       </div>
+//       <div id="cardBack" class="hidden">
+//         <p><strong>Meaning:</strong> ${flashcard.back}</p>
+//       </div>
+      
+//     </div>
+//   `;
+
+//   document.getElementById('flipBtnF').onclick = () => {
+//     document.getElementById('cardBack').classList.toggle('hidden');
+//     document.getElementById('cardFront').classList.toggle('hidden');
+//   };
+
+//   document.getElementById('nextFlashcardBtn').onclick = () => {
+//     appState.currentFlashcardIndex = (currentIndex + 1) % flashcards.length;
+//     showFlashcardPage();
+//   };
+// }
+function showFlashcardPage() {
+  const flashcards = appState.flashcards;
+  const currentIndex = appState.currentFlashcardIndex;
+  const flashcard = flashcards[currentIndex];
+
+  // Hide other pages
+  homePage.classList.add('hidden');
+  testTypePage.classList.add('hidden');
+  testPage.classList.add('hidden');
+  resultPage.classList.add('hidden');
+  explanationPage.classList.add('hidden');
+  flashcardPage.classList.remove('hidden');
+
+  if (flashcards.length === 0) {
+    flashcardPage.innerHTML = "<p>No flashcards available.</p>";
+    return;
+  }
+
+  const flashcardContent = document.getElementById('flashcardContent');
+   flashcardContent.innerHTML = `
+    <div class="flashcard">
+      <div id="cardFront">
+        <p><h2>${flashcard.front}</h2></p>
+      </div>
+      <div id="cardBack" class="hidden">
+        <p><strong>Meaning:</strong> ${flashcard.back}</p>
+      </div>
+      
+    </div>
+  `;
+
+  const flipBtn = document.getElementById('flipBtnF');
+  const nextBtn = document.getElementById('nextFlashcardBtn');
+  const cardFront = document.getElementById('cardFront');
+  const cardBack = document.getElementById('cardBack');
+
+  let isFlipped = false;
+  let flipTimeout, nextTimeout;
+
+  function flipCard() {
+    cardFront.classList.toggle('hidden');
+    cardBack.classList.toggle('hidden');
+    isFlipped = !isFlipped;
+  }
+
+  function scheduleFlipAndNext() {
+    clearTimeout(flipTimeout);
+    clearTimeout(nextTimeout);
+
+    // Auto-flip after 5s
+    flipTimeout = setTimeout(() => {
+      if (!isFlipped) {
+        flipCard();
+        // Auto-next after another 5s
+        nextTimeout = setTimeout(() => {
+          if (isFlipped) nextBtn.click();
+        }, 5000);
+      }
+    }, 5000);
+  }
+
+  flipBtn.onclick = () => {
+    flipCard();
+    clearTimeout(flipTimeout);
+    clearTimeout(nextTimeout);
+    // After manual flip, still schedule auto-next
+    nextTimeout = setTimeout(() => {
+      if (isFlipped) nextBtn.click();
+    }, 5000);
+  };
+
+  nextBtn.onclick = () => {
+    clearTimeout(flipTimeout);
+    clearTimeout(nextTimeout);
+    appState.currentFlashcardIndex = (currentIndex + 1) % flashcards.length;
+    showFlashcardPage();
+  };
+  console.log("Flashcard index:", currentIndex);
+  console.log("Flashcard type:", CardType); 
+  console.log("Flashcard source:", appState.flashcardSource);
+  console.log("User State:", appState.language);
+  scheduleFlipAndNext(); // Start timers
+}
+function showFlashcardPage() {
+  const flashcards = appState.flashcards;
+  const currentIndex = appState.currentFlashcardIndex;
+  const flashcard = flashcards[currentIndex];
+  const userLang = appState.language || 'en'; // fallback to 'en'
+  console.log("Flashcards:", flashcards);
+  // Hide other pages
+  homePage.classList.add('hidden');
+  testTypePage.classList.add('hidden');
+  testPage.classList.add('hidden');
+  resultPage.classList.add('hidden');
+  explanationPage.classList.add('hidden');
+  flashcardPage.classList.remove('hidden');
+
+  if (flashcards.length === 0) {
+    flashcardPage.innerHTML = "<p>No flashcards available.</p>";
+    return;
+  }
+
+  const flashcardContent = document.getElementById('flashcardContent');
+  flashcardContent.innerHTML = `
+    <div class="flashcard">
+      <div id="cardFront">
+        <h2>${flashcard.front}</h2>
+      </div>
+      <div id="cardBack" class="hidden">
+        <p> ${flashcard.back}</p>
+      </div>
+    </div>
+  `;
+
+  const flipBtn = document.getElementById('flipBtnF');
+  const nextBtn = document.getElementById('nextFlashcardBtn');
+  const cardFront = document.getElementById('cardFront');
+  const cardBack = document.getElementById('cardBack');
+
+  let isFlipped = false;
+  let flipAllowed = false;
+  let nextAllowed = false;
+
+  const audioFront = new Audio(`assets/vocab_en_w${flashcard.id}.mp3`);
+  const audioBack = new Audio(`assets/vocab_en_d${flashcard.id}.mp3`);
+
+  // Start playing front audio
+  audioFront.play();
+
+  // After front audio ends, allow flip
+  audioFront.onended = () => {
+    flipAllowed = true;
+  };
+
+  // After back audio ends, allow next
+  audioBack.onended = () => {
+    nextAllowed = true;
+  };
+
+  function flipCard() {
+    if (!flipAllowed) return;
+    cardFront.classList.add('hidden');
+    cardBack.classList.remove('hidden');
+    isFlipped = true;
+    audioBack.play();
+  }
+
+  function goToNextCard() {
+    if (!nextAllowed) return;
+    appState.currentFlashcardIndex = (currentIndex + 1) % flashcards.length;
+    showFlashcardPage();
+  }
+
+  flipBtn.onclick = () => {
+    flipCard();
+  };
+
+  nextBtn.onclick = () => {
+    goToNextCard();
+  };
 }

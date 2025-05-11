@@ -43,6 +43,294 @@
       "description": "Failing to file taxes can negatively impact your naturalization eligibility.",
       "audio": "assets/n400_q5.mp3",
       "bookmarked": false
-    }
+    },
+    {
+      "id": 6,
+      "question": "Have you ever been a member of the Communist Party?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Membership in certain organizations may indicate lack of attachment to U.S. values.",
+      "audio": "assets/n400_q6.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 7,
+      "question": "Have you ever been a member of a totalitarian party?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Totalitarian ideologies are incompatible with the democratic principles of the U.S.",
+      "audio": "assets/n400_q7.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 8,
+      "question": "Have you ever been a member of a terrorist organization?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Association with terrorist organizations is grounds for denial of citizenship.",
+      "audio": "assets/n400_q8.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 9,
+      "question": "Have you ever advocated the overthrow of any government by force or violence?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Advocating violence against a government is considered a serious offense.",
+      "audio": "assets/n400_q9.mp3",
+      "bookmarked": false
+    },
+    {
+      "id": 10,
+      "question": "Have you ever persecuted any person because of race, religion, national origin, membership in a particular social group, or political opinion?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "description": "Persecution of others disqualifies applicants from becoming U.S. citizens.",
+      "audio": "assets/n400_q10.mp3",
+      "bookmarked": false
+    },
+    {
+        "id": 11,
+        "question": "Have you ever been involved in any way with genocide?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Involvement in genocide is grounds for permanent ineligibility for U.S. citizenship.",
+        "audio": "assets/n400_q11.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 12,
+        "question": "Have you ever been involved in any way with the persecution of any person because of their religion, race, national origin, or political beliefs?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Persecution of others can severely affect your eligibility for citizenship.",
+        "audio": "assets/n400_q12.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 13,
+        "question": "Have you ever been arrested, cited, or detained by any law enforcement officer (including immigration officers)?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "If you have been detained or arrested, it may need to be disclosed depending on the case.",
+        "audio": "assets/n400_q13.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 14,
+        "question": "Have you ever been convicted of a crime or offense?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Certain criminal convictions can result in disqualification for naturalization.",
+        "audio": "assets/n400_q14.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 15,
+        "question": "Have you ever been placed in an alternative sentencing or rehabilitative program?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Alternative sentencing programs can sometimes indicate issues with character or legal compliance.",
+        "audio": "assets/n400_q15.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 16,
+        "question": "Have you ever been a member of any group, association, or organization that is involved in criminal activities?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Affiliation with criminal organizations may result in ineligibility for naturalization.",
+        "audio": "assets/n400_q16.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 17,
+        "question": "Have you ever been a member of an organization that advocated the use of violence?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Advocating violence goes against the values of democracy and peace.",
+        "audio": "assets/n400_q17.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 18,
+        "question": "Have you ever been convicted of a misdemeanor or felony?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Certain convictions, especially felonies, could disqualify you from citizenship.",
+        "audio": "assets/n400_q18.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 19,
+        "question": "Have you ever been a member of the military or worked for any government, police, or intelligence agency?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Military or government service could be subject to background checks that affect eligibility.",
+        "audio": "assets/n400_q19.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 20,
+        "question": "Do you have any pending criminal charges?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Pending criminal charges should be disclosed, as they may impact your application.",
+        "audio": "assets/n400_q20.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 21,
+        "question": "Have you ever been ordered to leave the United States?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "If you were ordered to leave the U.S., you must disclose it, as it may affect your eligibility.",
+        "audio": "assets/n400_q21.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 22,
+        "question": "Have you ever been deported from the United States?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Deportation or removal from the U.S. can severely affect your ability to naturalize.",
+        "audio": "assets/n400_q22.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 23,
+        "question": "Have you ever been found to have violated the terms of your immigration status?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Violating immigration terms may delay or deny your application for citizenship.",
+        "audio": "assets/n400_q23.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 24,
+        "question": "Have you ever lied to U.S. government officials to gain entry or avoid deportation?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Lying to officials can be grounds for denial of citizenship or deportation.",
+        "audio": "assets/n400_q24.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 25,
+        "question": "Have you ever been involved in immigration fraud?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Involvement in immigration fraud could make you ineligible for naturalization.",
+        "audio": "assets/n400_q25.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 26,
+        "question": "Do you support the Constitution and form of government of the United States?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "description": "Support for the Constitution and U.S. government is essential for becoming a U.S. citizen.",
+        "audio": "assets/n400_q26.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 27,
+        "question": "Are you willing to take the full Oath of Allegiance to the United States?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "description": "Taking the Oath of Allegiance is a required part of the naturalization process.",
+        "audio": "assets/n400_q27.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 28,
+        "question": "If the law requires it, are you willing to bear arms on behalf of the United States?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "description": "This refers to the possibility of serving in the military if the government requires it.",
+        "audio": "assets/n400_q28.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 29,
+        "question": "If the law requires it, are you willing to perform noncombatant services in the U.S. Armed Forces?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "description": "This refers to non-combat military service, if the U.S. government mandates it.",
+        "audio": "assets/n400_q29.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 30,
+        "question": "If the law requires it, are you willing to perform work of national importance under civilian direction?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "description": "This question refers to supporting the nation in other essential ways if needed.",
+        "audio": "assets/n400_q30.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 31,
+        "question": "Have you ever been a member of the Communist Party?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Membership in the Communist Party or any similar organization may disqualify you from citizenship.",
+        "audio": "assets/n400_q31.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 32,
+        "question": "Have you ever been a member of any totalitarian party?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Being a member of a totalitarian party can make you ineligible for U.S. citizenship.",
+        "audio": "assets/n400_q32.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 33,
+        "question": "Have you ever been a member of any terrorist organization?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Membership in a terrorist organization is grounds for permanent ineligibility for U.S. citizenship.",
+        "audio": "assets/n400_q33.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 34,
+        "question": "Have you ever committed a crime for which you have not been arrested?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Even if not arrested, committing a crime may affect your eligibility for naturalization.",
+        "audio": "assets/n400_q34.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 35,
+        "question": "Have you ever been a member of any group that advocated the overthrow of any government by force or violence?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Advocating violent overthrow of the government can disqualify you from citizenship.",
+        "audio": "assets/n400_q35.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 36,
+        "question": "Have you ever been a member of any organization that was involved in espionage or sabotage?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Espionage or sabotage against the U.S. or its allies is grounds for denial of citizenship.",
+        "audio": "assets/n400_q36.mp3",
+        "bookmarked": false
+      },
+      {
+        "id": 37,
+        "question": "Have you ever engaged in any activities that could harm the United States?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "description": "Engaging in activities harmful to the U.S. can be grounds for permanent ineligibility for naturalization.",
+        "audio": "assets/n400_q37.mp3",
+        "bookmarked": false
+      }
   ]
   

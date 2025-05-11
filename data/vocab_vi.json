@@ -2,7 +2,7 @@
   {
     "id": 1,
     "word": "Claimed",
-    "definition": "Said something was true, like saying you are a U.S. citizen.",
+    "definition": "Tuyên bố",
     "status": false,
     "audioWord": "assets/vocab_en_w1.mp3",
     "audioDef": "assets/vocab_en_d1.mp3"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "word": "Eligibility",
-    "definition": "If you can or cannot do something, like apply for citizenship.",
+    "definition": "Đủ điều kiện",
     "status": false,
     "audioWord": "assets/vocab_en_w2.mp3",
     "audioDef": "assets/vocab_en_d2.mp3"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "word": "Naturalization",
-    "definition": "The process to become a U.S. citizen.",
+    "definition": "Nhập quốc tịch",
     "status": false,
     "audioWord": "assets/vocab_en_w3.mp3",
     "audioDef": "assets/vocab_en_d3.mp3"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "word": "Register(ed)",
-    "definition": "To sign up officially for something, like voting.",
+    "definition": "Đăng ký",
     "status": false,
     "audioWord": "assets/vocab_en_w4.mp3",
     "audioDef": "assets/vocab_en_d4.mp3"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "word": "Deported",
-    "definition": "Being sent back to your country by the government.",
+    "definition": "Bị trục xuất",
     "status": false,
     "audioWord": "assets/vocab_en_w5.mp3",
     "audioDef": "assets/vocab_en_d5.mp3"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "word": "Deportation",
-    "definition": "The act of sending someone back to their country.",
+    "definition": "Sự trục xuất",
     "status": false,
     "audioWord": "assets/vocab_en_w6.mp3",
     "audioDef": "assets/vocab_en_d6.mp3"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "word": "Immigration",
-    "definition": "Moving to live in a new country.",
+    "definition": "Di trú",
     "status": false,
     "audioWord": "assets/vocab_en_w7.mp3",
     "audioDef": "assets/vocab_en_d7.mp3"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "word": "Status",
-    "definition": "Your legal position in a country, like student or resident.",
+    "definition": "Tình trạng",
     "status": false,
     "audioWord": "assets/vocab_en_w8.mp3",
     "audioDef": "assets/vocab_en_d8.mp3"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "word": "Violation",
-    "definition": "Breaking a rule or law.",
+    "definition": "Vi phạm",
     "status": false,
     "audioWord": "assets/vocab_en_w9.mp3",
     "audioDef": "assets/vocab_en_d9.mp3"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "word": "Violated",
-    "definition": "Did not follow a law or rule.",
+    "definition": "Đã vi phạm",
     "status": false,
     "audioWord": "assets/vocab_en_w10.mp3",
     "audioDef": "assets/vocab_en_d10.mp3"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "word": "Fraud",
-    "definition": "Lying to get something, like a visa or money.",
+    "definition": "Gian lận",
     "status": false,
     "audioWord": "assets/vocab_en_w11.mp3",
     "audioDef": "assets/vocab_en_d11.mp3"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "word": "Citizenship",
-    "definition": "Being a full member of a country with rights and duties.",
+    "definition": "Quốc tịch",
     "status": false,
     "audioWord": "assets/vocab_en_w12.mp3",
     "audioDef": "assets/vocab_en_d12.mp3"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "word": "Owe",
-    "definition": "To need to pay money to someone.",
+    "definition": "Nợ",
     "status": false,
     "audioWord": "assets/vocab_en_w13.mp3",
     "audioDef": "assets/vocab_en_d13.mp3"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "word": "Overdue",
-    "definition": "Not paid on time.",
+    "definition": "Quá hạn",
     "status": false,
     "audioWord": "assets/vocab_en_w14.mp3",
     "audioDef": "assets/vocab_en_d14.mp3"
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "word": "Tax return",
-    "definition": "The form you send to the government to report income and taxes.",
+    "definition": "Tờ khai thuế",
     "status": false,
     "audioWord": "assets/vocab_en_w15.mp3",
     "audioDef": "assets/vocab_en_d15.mp3"
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "word": "Filed a tax return",
-    "definition": "Sent your tax form to the government.",
+    "definition": "Đã nộp tờ khai thuế",
     "status": false,
     "audioWord": "assets/vocab_en_w16.mp3",
     "audioDef": "assets/vocab_en_d16.mp3"
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "word": "Title of nobility",
-    "definition": "A royal name like king, queen, prince, or duke.",
+    "definition": "Tước hiệu quý tộc",
     "status": false,
     "audioWord": "assets/vocab_en_w17.mp3",
     "audioDef": "assets/vocab_en_d17.mp3"
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "word": "Legally incompetent",
-    "definition": "Not able to make decisions for yourself by law.",
+    "definition": "Mất năng lực pháp lý",
     "status": false,
     "audioWord": "assets/vocab_en_w18.mp3",
     "audioDef": "assets/vocab_en_d18.mp3"
@@ -146,7 +146,7 @@
   {
     "id": 19,
     "word": "Mental institution",
-    "definition": "A hospital for people with serious mental health problems.",
+    "definition": "Cơ sở tâm thần",
     "status": false,
     "audioWord": "assets/vocab_en_w19.mp3",
     "audioDef": "assets/vocab_en_d19.mp3"
@@ -154,7 +154,7 @@
   {
     "id": 20,
     "word": "Confined",
-    "definition": "Kept in one place, like in jail or a hospital.",
+    "definition": "Bị giam giữ",
     "status": false,
     "audioWord": "assets/vocab_en_w20.mp3",
     "audioDef": "assets/vocab_en_d20.mp3"
@@ -162,7 +162,7 @@
   {
     "id": 21,
     "word": "Declared legally incompetent",
-    "definition": "A judge said you cannot make your own decisions.",
+    "definition": "Bị tuyên bố mất năng lực pháp lý",
     "status": false,
     "audioWord": "assets/vocab_en_w21.mp3",
     "audioDef": "assets/vocab_en_d21.mp3"
@@ -170,7 +170,7 @@
   {
     "id": 22,
     "word": "Constitution",
-    "definition": "The basic laws and rules of a country.",
+    "definition": "Hiến pháp",
     "status": false,
     "audioWord": "assets/vocab_en_w22.mp3",
     "audioDef": "assets/vocab_en_d22.mp3"
@@ -178,7 +178,7 @@
   {
     "id": 23,
     "word": "Government",
-    "definition": "The people who run a country, state, or city.",
+    "definition": "Chính phủ",
     "status": false,
     "audioWord": "assets/vocab_en_w23.mp3",
     "audioDef": "assets/vocab_en_d23.mp3"
@@ -186,7 +186,7 @@
   {
     "id": 24,
     "word": "Totalitarian",
-    "definition": "A government where one person or group has all the power.",
+    "definition": "Chế độ độc tài",
     "status": false,
     "audioWord": "assets/vocab_en_w24.mp3",
     "audioDef": "assets/vocab_en_d24.mp3"
@@ -194,7 +194,7 @@
   {
     "id": 25,
     "word": "Terrorist",
-    "definition": "A person who uses violence to scare people for political reasons.",
+    "definition": "Kẻ khủng bố",
     "status": false,
     "audioWord": "assets/vocab_en_w25.mp3",
     "audioDef": "assets/vocab_en_d25.mp3"
@@ -202,7 +202,7 @@
   {
     "id": 26,
     "word": "Terrorist organization",
-    "definition": "A group that uses violence to scare people for political goals.",
+    "definition": "Tổ chức khủng bố",
     "status": false,
     "audioWord": "assets/vocab_en_w26.mp3",
     "audioDef": "assets/vocab_en_d26.mp3"
@@ -210,7 +210,7 @@
   {
     "id": 27,
     "word": "Persecuted",
-    "definition": "Hurt someone badly because of their race, religion, or ideas.",
+    "definition": "Ngược đãi",
     "status": false,
     "audioWord": "assets/vocab_en_w27.mp3",
     "audioDef": "assets/vocab_en_d27.mp3"
@@ -218,7 +218,7 @@
   {
     "id": 28,
     "word": "Genocide",
-    "definition": "Killing many people from one group on purpose.",
+    "definition": "Diệt chủng",
     "status": false,
     "audioWord": "assets/vocab_en_w28.mp3",
     "audioDef": "assets/vocab_en_d28.mp3"
@@ -226,7 +226,7 @@
   {
     "id": 29,
     "word": "Torture",
-    "definition": "Causing someone great pain as punishment or to get information.",
+    "definition": "Tra tấn",
     "status": false,
     "audioWord": "assets/vocab_en_w29.mp3",
     "audioDef": "assets/vocab_en_d29.mp3"
@@ -234,7 +234,7 @@
   {
     "id": 30,
     "word": "Kill",
-    "definition": "To make someone die.",
+    "definition": "Giết",
     "status": false,
     "audioWord": "assets/vocab_en_w30.mp3",
     "audioDef": "assets/vocab_en_d30.mp3"
@@ -242,7 +242,7 @@
   {
     "id": 31,
     "word": "Attempted to kill",
-    "definition": "Tried to make someone die.",
+    "definition": "Cố gắng giết",
     "status": false,
     "audioWord": "assets/vocab_en_w31.mp3",
     "audioDef": "assets/vocab_en_d31.mp3"
@@ -250,7 +250,7 @@
   {
     "id": 32,
     "word": "Badly hurt",
-    "definition": "Injured someone very seriously.",
+    "definition": "Gây thương tích nặng",
     "status": false,
     "audioWord": "assets/vocab_en_w32.mp3",
     "audioDef": "assets/vocab_en_d32.mp3"
@@ -258,7 +258,7 @@
   {
     "id": 33,
     "word": "Military unit",
-    "definition": "A group of soldiers.",
+    "definition": "Đơn vị quân đội",
     "status": false,
     "audioWord": "assets/vocab_en_w33.mp3",
     "audioDef": "assets/vocab_en_d33.mp3"
@@ -266,7 +266,7 @@
   {
     "id": 34,
     "word": "Paramilitary unit",
-    "definition": "A group like the army but not official.",
+    "definition": "Đơn vị bán quân sự",
     "status": false,
     "audioWord": "assets/vocab_en_w34.mp3",
     "audioDef": "assets/vocab_en_d34.mp3"
@@ -274,7 +274,7 @@
   {
     "id": 35,
     "word": "Police unit",
-    "definition": "A group of police officers.",
+    "definition": "Đơn vị cảnh sát",
     "status": false,
     "audioWord": "assets/vocab_en_w35.mp3",
     "audioDef": "assets/vocab_en_d35.mp3"
@@ -282,7 +282,7 @@
   {
     "id": 36,
     "word": "Self-defense unit",
-    "definition": "A group of people who protect themselves.",
+    "definition": "Đơn vị tự vệ",
     "status": false,
     "audioWord": "assets/vocab_en_w36.mp3",
     "audioDef": "assets/vocab_en_d36.mp3"
@@ -290,7 +290,7 @@
   {
     "id": 37,
     "word": "Rebel group",
-    "definition": "A group that fights against the government.",
+    "definition": "Nhóm nổi loạn",
     "status": false,
     "audioWord": "assets/vocab_en_w37.mp3",
     "audioDef": "assets/vocab_en_d37.mp3"
@@ -298,7 +298,7 @@
   {
     "id": 38,
     "word": "Guerrilla group",
-    "definition": "A group that uses surprise attacks in war.",
+    "definition": "Nhóm du kích",
     "status": false,
     "audioWord": "assets/vocab_en_w38.mp3",
     "audioDef": "assets/vocab_en_d38.mp3"
@@ -306,7 +306,7 @@
   {
     "id": 39,
     "word": "Militia",
-    "definition": "A group of people who are not regular soldiers but fight like soldiers.",
+    "definition": "Dân quân",
     "status": false,
     "audioWord": "assets/vocab_en_w39.mp3",
     "audioDef": "assets/vocab_en_d39.mp3"
@@ -314,7 +314,7 @@
   {
     "id": 40,
     "word": "Prison",
-    "definition": "A place where criminals are kept.",
+    "definition": "Nhà tù",
     "status": false,
     "audioWord": "assets/vocab_en_w40.mp3",
     "audioDef": "assets/vocab_en_d40.mp3"
@@ -322,7 +322,7 @@
   {
     "id": 41,
     "word": "Prison camp",
-    "definition": "A place where prisoners are kept, often in war.",
+    "definition": "Trại giam",
     "status": false,
     "audioWord": "assets/vocab_en_w41.mp3",
     "audioDef": "assets/vocab_en_d41.mp3"
@@ -330,7 +330,7 @@
   {
     "id": 42,
     "word": "Detention center",
-    "definition": "A place where people are kept by the government.",
+    "definition": "Trung tâm giam giữ",
     "status": false,
     "audioWord": "assets/vocab_en_w42.mp3",
     "audioDef": "assets/vocab_en_d42.mp3"
@@ -338,7 +338,7 @@
   {
     "id": 43,
     "word": "Labor camp",
-    "definition": "A place where people are forced to work.",
+    "definition": "Trại lao động",
     "status": false,
     "audioWord": "assets/vocab_en_w43.mp3",
     "audioDef": "assets/vocab_en_d43.mp3"
@@ -346,7 +346,7 @@
   {
     "id": 44,
     "word": "Weapons",
-    "definition": "Things used to hurt people, like guns or knives.",
+    "definition": "Vũ khí",
     "status": false,
     "audioWord": "assets/vocab_en_w44.mp3",
     "audioDef": "assets/vocab_en_d44.mp3"
@@ -354,7 +354,7 @@
   {
     "id": 45,
     "word": "Arrested",
-    "definition": "Taken by the police.",
+    "definition": "Bị bắt",
     "status": false,
     "audioWord": "assets/vocab_en_w45.mp3",
     "audioDef": "assets/vocab_en_d45.mp3"
@@ -362,7 +362,7 @@
   {
     "id": 46,
     "word": "Cited",
-    "definition": "Given a ticket or notice by the police.",
+    "definition": "Bị phạt",
     "status": false,
     "audioWord": "assets/vocab_en_w46.mp3",
     "audioDef": "assets/vocab_en_d46.mp3"
